@@ -1,0 +1,80 @@
+body {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	display: block;
+}
+.picture1 {
+	width: 10%;
+	height: 50%;
+	margin: auto;
+}
+.text {
+	margin-left: auto;
+	margin-right: auto;
+	width: 15%;
+	text-align: center;
+}
+.middle {
+	display: flex;
+	width: 100%;
+	height: 50%;
+	background-color: rgb(0,0,0);
+}
+.picture2 {
+	cursor: pointer;
+	width: 30%;
+	height: 75%;
+	margin: auto;
+	background-color: rgb(0,0,0);
+}
+.keyboard {
+	cursor: pointer;
+	height: 100%;
+	width: 100%;
+	background-color: rgb(0,0,0);
+}
+.mouse {
+	cursor: pointer;
+	height: 100%;
+	width: 25%;
+	background-color: rgb(0,0,0);
+}
+.keyboardholder {
+	display: block;
+	height: 50%;
+	width: 75%;
+}
+.top {
+	width: 100%;
+	height: 25%;
+	background-color: rgb(0,0,0);
+}
+.bottom {
+	display: flex;
+	width: 100%;
+	height: 25%;
+	background-color: rgb(0,200,0);
+}
+.restrict-img-size {
+	margin: auto;
+	max-height: 99%;
+	max-width: 99%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 99%;
+}
+.click {
+	cursor: pointer;
+}
+.center-content {
+	display: flex;
+	align: center;
+	justify: center;
+}
+p {
+	color: rgb(255,255,255)
+}
